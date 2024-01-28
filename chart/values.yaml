@@ -4,9 +4,9 @@ service:
  port: 80
  targetPort: 2368
  nodePort: 30080
-blog:
+demo:
   name: blog
   replicas: 1
-  image: ghost:2.6-alpine
+  image: xinyulrsm/guru:v3
   imagePullPolicy: Always
   containerPort: 2368
